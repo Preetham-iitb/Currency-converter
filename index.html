@@ -12,24 +12,24 @@
 </head>
 <body>
     <video src="background.mp4" autoplay loop muted class="background-video"></video>
-    <div class="act-box1" id="act-box">
+    <div class="act-box1" id="act-box1">
         <h2>Currency Converter</h2>
         <div>
             <label for="amount" id="from-label">Enter amount</label>
         </div>
         <input type="number" name="amount" id="amount" min="1" value="1">
-        <label for="from" class="from-curr-label">From:</label>
+        <label for="from" class="from-curr-label" id="from-curr-label">From:</label>
         <select name="from" id="from-curr"><!--list of options will be included using js file--></select>
         <div>
             <label for="to-amount" id="to-label">After exchange</label>
         </div>
         <div name="to-amount" id="to-amount" value="0">0</div>
-        <label for="to" class="to-curr-label">To:</label>
+        <label for="to" class="to-curr-label" id="to-curr-label">To:</label>
         <select name="to" id="to-curr"><!--list of options will be included using js file--></select>
         <button id="convert" class="translate">Convert Currency</button>
         <button id="make-money" class="translate">Make money using currency conversion</button>
     </div>
-    <div class="act-box2">
+    <div class="act-box" id="act-box2">
             
     </div>
     <script src="list-of-countries.js"></script>
