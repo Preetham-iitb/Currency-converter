@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        /* imported 3 fonts external fonts */
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video src="background.mp4" autoplay loop muted class="background-video"></video>
+    <div class="act-box1" id="act-box">
+        <h2>Currency Converter</h2>
+        <div>
+            <label for="amount" id="from-label">Enter amount</label>
+        </div>
+        <input type="number" name="amount" id="amount" min="1" value="1">
+        <label for="from" class="from-curr-label">From:</label>
+        <select name="from" id="from-curr"><!--list of options will be included using js file--></select>
+        <div>
+            <label for="to-amount" id="to-label">After exchange</label>
+        </div>
+        <div name="to-amount" id="to-amount" value="0">0</div>
+        <label for="to" class="to-curr-label">To:</label>
+        <select name="to" id="to-curr"><!--list of options will be included using js file--></select>
+        <button id="convert" class="translate">Convert Currency</button>
+        <button id="make-money" class="translate">Make money using currency conversion</button>
+    </div>
+    <div class="act-box2">
+            
+    </div>
+    <script src="list-of-countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

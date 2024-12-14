@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Input Arrows</title>
+    <style>
+        /* Hide spin buttons for WebKit browsers */
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Hide spin buttons for Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        /* Custom styling for the input field */
+        input[type="number"] {
+            padding: 5px;
+            border: 2px solid #007BFF;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput" min="1" required>
+</body>
+</html>
