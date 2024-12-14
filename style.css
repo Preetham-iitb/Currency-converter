@@ -12,18 +12,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
-/* @media (max-width: 480px){
 
-    .act-box{
-        width: 90vw;
-        height: 90vh;
-        background-color: white;
-        position: realtive;
-        top: 20vh;
-        left: 5vw;
-        border-radius: 20px;
-    }
-} */
 .act-box1 {
   width: 44vw;
   height: 60vh;
