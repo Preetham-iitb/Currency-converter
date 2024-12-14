@@ -50,3 +50,10 @@ function exchangeRate() { // Fetches API and does calculation part
       opt_txt.innerText = "An unknown error occured :(";
     });
 }
+
+const exchange_curr = document.getElementById("exchange-curr");
+exchange_curr.addEventListener("click", () => {
+  let temp = fromCurrency.value;
+  fromCurrency.value = toCurrency.value;
+  toCurrency.value = temp;
+})// this inter-changes both currencies

@@ -12,7 +12,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
 .act-box1 {
   width: 44vw;
   height: 60vh;
@@ -40,7 +39,7 @@ h2 {
   border-radius: 5px;
   padding: 1vh 0vw;
   width: 15vw;
-  font-size: large;
+  font-size: medium;
   background-color: #3e9c35;
   font-family: "Poppins", sans-serif;
   transition: all 0.1s cubic-bezier(0, 0, 0.29, 0.95);
@@ -50,7 +49,7 @@ h2 {
   bottom: 10vh;
   left: 6vw;
 }
-#make-money {
+#exchange-curr {
   position: absolute;
   bottom: 9vh;
   right: 6vh;
@@ -74,7 +73,6 @@ h2 {
   padding: 0px 0.75vw;
   font-family: "Poppins", sans-serif;
 }
-
 #from-curr {
   position: absolute;
   top: 31vh;
@@ -100,8 +98,7 @@ h2 {
   top: 31.3vh;
   left: 10vw;
 }
-/* below are for to */
-
+/* below are for To currency */
 #to-amount {
   position: absolute;
   top: 20vh;
@@ -219,7 +216,7 @@ h2 {
     top: 35vh;
     left: 11vw;
   }
-  #make-money {
+  #exchange-curr {
     width: 25vw;
     height: 10vh;
     font-size: small;
@@ -229,30 +226,24 @@ h2 {
   }
 }
 @media (max-width: 1200px) and (min-width: 770px) {
-  #act-box1 {
-    width: 80vw;
-    position: absolute;
-    left: 10vw;
+  h2{
+    font-size: 1.8em;
   }
-  #act-box2 {
-    width: 80vw;
+  #from-curr-label{
     position: absolute;
-    left: 9vw;
+    left: 7vw;
   }
-  #from-curr-label {
-    position: absolute;
-    left: 3vw;
+  #from-curr{
+    left: 13vw;
+    width: 6vw;
   }
-  #to-curr-label {
-    position: absolute;
-    right: 19vw;
+  #to-curr{
+    right: 10vw;
+    width: 6vw;
   }
-  #to-curr {
-    width: 7vw;
-  }
-  #from-curr {
-    width: 7vw;
-    position: absolute;
-    left: 10vw;
+}
+@media (max-width: 686px){
+  h2{
+    font-size: 2em;
   }
 }

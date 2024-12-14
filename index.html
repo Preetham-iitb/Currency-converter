@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video src="background.mp4" autoplay loop muted class="background-video"></video>
+    <video src="background.mp4" autoplay loop muted class="background-video"></video><!--this is to play background video-->
     <div class="act-box1" id="act-box1">
         <h2>Currency Converter</h2>
         <div>
@@ -27,11 +27,10 @@
         <label for="to" class="to-curr-label" id="to-curr-label">To:</label>
         <select name="to" id="to-curr"><!--list of options will be included using js file--></select>
         <button id="convert" class="translate">Convert Currency</button>
-        <button id="make-money" class="translate">Make money using currency conversion</button>
+        <button id="exchange-curr" class="translate">Change FROM and TO currencies</button>
+        <p></p>
     </div>
-    <div class="act-box" id="act-box2">
-            
-    </div>
+    <div class="act-box" id="act-box2"></div>
     <script src="list-of-countries.js"></script>
     <script src="script.js"></script>
 </body>
