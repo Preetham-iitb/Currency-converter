@@ -225,6 +225,16 @@ h2 {
     right: 10vw;
   }
 }
+a:hover{
+  color: black;
+}
+a{
+  color: #3e9c35;
+  font-size: small;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 @media (max-width: 1200px) and (min-width: 770px) {
   h2{
     font-size: 1.8em;
