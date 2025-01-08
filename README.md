@@ -1,6 +1,7 @@
 Hi, myself Ganesh Preetham and this is my assignment for DevCom recruitments
 
 I made a Currency Converter website using HTML, CSS and JavaScript. I'll explain about each of my file seperately.
+To open the website just open the index.html hile using any browser. No external packages required
 
 HTML:-
 HTML is used to make the basic structure of the website.
@@ -17,7 +18,6 @@ The whole website follows theme of this green and I feel it perfectly suited for
 The 2 buttons has a satisfying transition effect for them when we hover the mouse on them
 For most of the elements I used Poppins font and for the heading I used Lato font.
 All the boxes have rounded corners and overall I feel everything in the website feels smooth and pleasing to eyes.
-
 
 JavaScript:-
 In the JavaScript file the first thing I've implemented is that if the user enters any non-positive input or leaves the input empty,
