@@ -18,8 +18,7 @@ for (let i = 0; i < dropList.length; i++) {
     let selected = "";
     if (i == 0) {
       if (currency_code == "USD") selected = "selected";
-    }
-    else {
+    } else {
       if (currency_code == "INR") selected = "selected";
     }
     // Creating option tag with passing currency_code as value
@@ -30,10 +29,11 @@ for (let i = 0; i < dropList.length; i++) {
 }
 
 convertButton.addEventListener("click", (e) => {
-    exchangeRate();
-});// when the event "click" happens to convertButton, function is executed
+  exchangeRate();
+}); // when the event "click" happens to convertButton, function is executed
 
-function exchangeRate() { // Fetches API and does calculation part
+function exchangeRate() {
+  // Fetches API and does calculation part
   const inp_amt = document.getElementById("amount").value; // Input value
   const opt_txt = document.getElementById("to-amount"); // Output element (to be decided in the function)
   opt_txt.innerText = "Calculating..."; // In case fetching API takes time
@@ -56,4 +56,4 @@ exchange_curr.addEventListener("click", () => {
   let temp = fromCurrency.value;
   fromCurrency.value = toCurrency.value;
   toCurrency.value = temp;
-})// this inter-changes both currencies
+}); // this inter-changes both currencies
